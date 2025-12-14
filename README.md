@@ -105,15 +105,6 @@ Use os comandos interativamente no prompt `>`.
 
 ---
 
-## Objetivo Acadêmico
-
-Este projeto tem finalidade **educacional**, sendo adequado para estudo de:
-- Gerência de memória
-- Fragmentação interna e externa
-- Estratégias clássicas de alocação
-
----
-
 ## Requisitos
 
 - Python 3.10+
