@@ -255,8 +255,8 @@ while True:
                 continue
 
         # freeid
-        if parts[0] == 'freeid' and parts[1].isdigit():
-            if len(parts) != 2:
+        if parts[0] == 'freeid':
+            if len(parts) != 2 or not parts[1].isdigit():
                 print("Estrutura de freeid inválida! Use freeid <id>") 
                 continue
             if (memory == None):
@@ -266,8 +266,8 @@ while True:
             memory.free_id(id)
 
         # freeaddr
-        if parts[0] == 'freeaddr' and parts[1].isdigit():
-            if len(parts) != 2:
+        if parts[0] == 'freeaddr':
+            if len(parts) != 2 or not parts[1].isdigit():
                 print("Estrutura de freeaddr inválida! Use freeaddr <id>") 
                 continue
             if (memory == None):
